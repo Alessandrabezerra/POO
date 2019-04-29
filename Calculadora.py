@@ -49,7 +49,7 @@ while line != "fim":
   elif ui[0] == "inicio":
     calc.batmax = int(ui[1])
   elif ui[0] == "recarga":
-    calc.charge(int(ui[1]))
+    calc.recarga(int(ui[1]))
   elif ui[0] == "soma":
     a = (int(ui[1]))
     b = (int(ui[2]))
